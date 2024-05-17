@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My blog</title>
     <link type="text/css" rel="stylesheet" href="mycss.css">
+    <style>
+        .img_11 {
+    width: 100px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    animation: myanim 5s infinite;
+}
+#img1 {animation-timing-function: ease-out;}
+#img2 {animation-timing-function: ease-in;}
+@keyframes myanim {
+    from { left: 0px;}
+    to {left: 500px;}
+}
+    </style>
 </head>
 <body>
     <header>
@@ -26,9 +41,8 @@
     </nav>
     <section id="main">
         <article>
-            <h1>OTT 서비스란?</h1>
-        <p><b>OTT 서비스</b>(영어: over-the-top media service)는 인터넷을 통해 방송 프로그램·영화·교육 등 각종 미디어 콘텐츠를 제공하는 서비스를 말한다. OTT는 over-the-top의 줄임말로 over-the-x는 '기존의 범위를 넘어서'라는 뜻이 있다. top은 TV 셋톱박스 같은 단말기를 의미한다. 따라서 직역하면 셋톱박스를 통해서, 넘어서의 의미를 가진다. 이처럼 OTT서비스는 초기에 단말기를 통해 영화·TV프로그램 등 프리미엄 콘텐츠를 VOD 방식으로 제공하는 서비스를 지칭했다. 이후 인터넷 기술변화에 따라 콘텐츠 유통이 모바일까지 포함하면서 OTT의 의미가 확대됐다.</p>
-        </article>
+            <img class="img_11" id="img1" src="r.png"></div>
+    <img class="img_11" id="img2" src="t.png"></div>
     </section>
     <footer>Copyright (c) 2024</footer>
 </body>
